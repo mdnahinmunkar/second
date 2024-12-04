@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+}
+
+.cv-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #eae8ec;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.left-column {
+    width: 30%;
+    background-color: #020d41;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    border: 5px solid #a9b5c2;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact-info, .skills , .edu{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.right-column {
+    width: 70%;
+    padding: 20px;
+}
+
+.header {
+    text-align:left;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+    font-style:oblique;
+    color: crimson;
+    font-weight: bold;
+}
+
+.header p {
+    font-size: 18px;
+    color: #555;
+    font-weight: bold;
+    
+}
+
+.summary, .experience, .education {
+    margin-bottom: 50px;
+    
+}
+
+h2 {
+    border-bottom: 2px solid #141011;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #333;
+    font-weight: bolder;
+}
+
+h3 {
+    border-bottom: 2px solid #e0dcdd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: #f8f6f6;
+    font-weight: bold;
+
+}
+
+ul {
+    padding-left: 20px;
+}
